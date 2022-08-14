@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Pagination from "@mui/material/Pagination";
 import PlantCard from "../plant/PlantCard";
 import { CircularProgress, LinearProgress } from "@mui/material";
-import Filter from "./filter/Filter";
 
 export default function Products({ sectionCount, products }) {
   const [data, setData] = useState([]);
