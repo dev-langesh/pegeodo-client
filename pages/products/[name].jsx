@@ -28,7 +28,7 @@ export async function getStaticPaths() {
   );
   const data = await res.json();
   console.log(data);
-  const paths = data.map((plant) => ({
+  const paths = data?.map((plant) => ({
     params: { name: plant.name },
   }));
   return {

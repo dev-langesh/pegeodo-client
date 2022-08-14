@@ -49,7 +49,7 @@ export default function CartCardContainer() {
                 {message}
               </h1>
             )}
-            {data.map((item) => {
+            {data?.map((item) => {
               return <CartCard key={item._id} {...item} />;
             })}
           </ul>

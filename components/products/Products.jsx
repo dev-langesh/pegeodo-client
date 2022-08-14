@@ -44,7 +44,7 @@ export default function Products({ sectionCount, products }) {
           ? products?.map((plant) => {
               return <PlantCard key={plant._id} {...plant} />;
             })
-          : data.map((plant) => {
+          : data?.map((plant) => {
               return <PlantCard key={plant._id} {...plant} />;
             })}
       </section>
