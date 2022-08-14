@@ -8,7 +8,7 @@ export default function ExclusiveOffer() {
 
   return (
     <section className="flex w-full overflow-x-auto items-center space-x-6 hide-scrollbar p-2 snap-x md:snap-none snap-mandatory scroll-smooth scroll-m-2">
-      {offers.map((plant) => {
+      {offers?.map((plant) => {
         return <PlantCard key={plant._id} {...plant} />;
       })}
     </section>

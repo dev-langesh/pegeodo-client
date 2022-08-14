@@ -55,6 +55,8 @@ export default function Slider() {
           {[
             "https://c4.wallpaperflare.com/wallpaper/921/360/969/water-lily-4k-pc-hd-download-wallpaper-preview.jpg",
             "https://2.bp.blogspot.com/-XB1qF1NISNk/XGso08fb21I/AAAAAAAACns/6xEQJA4q50sG0sj6bljLT2ivYiURCqTKQCKgBGAs/w0/lotus-nature-plant-4K-158.jpg",
+            "https://2.bp.blogspot.com/-XB1qF1NISNk/XGso08fb21I/AAAAAAAACns/6xEQJA4q50sG0sj6bljLT2ivYiURCqTKQCKgBGAs/w0/lotus-nature-plant-4K-158.jpg",
+            "https://2.bp.blogspot.com/-XB1qF1NISNk/XGso08fb21I/AAAAAAAACns/6xEQJA4q50sG0sj6bljLT2ivYiURCqTKQCKgBGAs/w0/lotus-nature-plant-4K-158.jpg",
           ].map((image, index) => {
             return (
               <img
